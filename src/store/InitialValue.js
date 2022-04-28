@@ -1,6 +1,7 @@
-export const mapDivId = "map";
 export const APIURL = "http://localhost:8080/api/v1/"
-export const markerList = [];
+export const mapId = "map";
+export const locationId = "location";
+export const locationList = [];
 export const initMapOption = {
   scaleControl: true,
   logoControl: true,
@@ -9,3 +10,4 @@ export const initMapOption = {
   size: { width: 1200, height: 400 },
   zoom: 10,
 };
+export const currentLocationId = "";
